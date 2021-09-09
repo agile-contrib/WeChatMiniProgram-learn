@@ -1,0 +1,15 @@
+{
+  "name": "wechatminiprogram-learn",
+  "version": "0.1.0",
+  "description": "微信小程序学习代码笔记 ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agile-contrib/WeChatMiniProgram-learn.git"
+  },
+  "author": "你好2007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agile-contrib/WeChatMiniProgram-learn/issues"
+  },
+  "homepage": "https://github.com/agile-contrib/WeChatMiniProgram-learn#readme"
+}

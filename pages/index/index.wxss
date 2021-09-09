@@ -1,0 +1,11 @@
+.nav{
+  text-align:center;
+}
+.nav .link{
+  background-color: rgb(3, 143, 143);
+  color:white;
+  width:650rpx;
+  display: inline-block;
+  padding:5px;
+  margin-top:10px;
+}

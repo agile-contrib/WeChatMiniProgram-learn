@@ -1,0 +1,28 @@
+<view>
+
+  <!-- 单向绑定 -->
+  <input value="{{value1}}" />
+  <input value="前缀：{{value1}}" />
+
+  <!-- 点击触发修改value1的值的方法 -->
+  <button bindtap='updateValue1'>更新上面的值</button>
+
+  <!-- 双向绑定 -->
+  <input model:value="{{value1}}" />
+
+  <!-- 点击触发打印value1的值的方法 -->
+  <button bindtap='logValue1'>打印上面的值</button>
+
+  <!-- 列表渲染 -->
+  <text wx:for='{{value2}}' wx:key='item'>【{{item}}】</text>
+
+  <!-- 条件渲染 -->
+  <input model:value="{{value3}}" />
+  <view wx:if='{{value3=="type1"}}'>类型一</view>
+  <view wx:elif='{{value3=="type2"}}'>类型二</view>
+  <view wx:else>其它类型</view>
+
+  <!-- 给事件传递数据 -->
+  <button bindtap="doit" data-key1='value1' data-key2="{{value1}}">点击我</button>
+
+</view>

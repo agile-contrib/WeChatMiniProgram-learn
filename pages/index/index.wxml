@@ -1,3 +1,7 @@
-<view class="container">
+<view class='nav'>
+
+  <navigator class='link' url='../basic/basic'>
+    基础使用
+  </navigator>
 
 </view>
